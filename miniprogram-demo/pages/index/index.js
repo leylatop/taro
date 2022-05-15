@@ -33,11 +33,6 @@ class Index extends Component {
     });
     return this.__state;
   }
-
-  render () {
-    const text = this.state.count % 2 === 0 ? '偶数' : '奇数'
-    return text
-  }
 }
 // 加入静态方法
 Index.$$events = ['onAddClick','onReduceClick']
